@@ -12,8 +12,8 @@
 			font-family: 'Open Sans', sans-serif;
 		}
 
-		a#myAdLink{
-			display: inline-block; 
+		a#myAdLink {
+			display: inline-block;
 			background-color: #2480d6;
 		}
 
@@ -23,19 +23,57 @@
 			position: relative;
 			overflow: hidden;
 		}
+
+		#myAd .myAd_Img {
+			position: absolute;
+			background: url(graphics.png) no-repeat 0px 0px;
+		}
+
+		#myAd #myAd_clouds {
+			width: inherit;
+			height: inherit;
+			top: 0px;
+			left: 0px;
+		}
+		#myAd #myAd_photo {
+			width: inherit;
+			height: 143px;
+			background-position: 0px -325px;
+			bottom: 0px;
+			left: 0px;
+		}
+		#myAd #myAd_txt1,
+		#myAd #myAd_txt2 {
+			position: absolute;
+			width: inherit;
+			text-align: center;
+			color: #FFF;
+			font-size: 3.0em;
+			top: 0px;
+			left: 0px;
+			text-transform: uppercase;
+			text-shadow: 0px 3px 3px rgba(0, 0, 102, 0.5);
+
+		}
 	</style>
 </head>
 
 <body>
-	
 
-	<a id="myAdLink" herf="https://photomassacre.com">
+
+	<a id="myAdLink" href="https://photomassacre.com">
 
 
 		<div id="myAd">
 
-			
-				<div class="myAd_Img" id="myAd_clouds"></div>
+
+			<div class="myAd_Img" id="myAd_clouds"></div>
+			<div class="myAd_Img" id="myAd_photo"></div>
+			<div id="myAd_txt1">Feeling stressed?</div>
+			<div id="myAd_txt2">You can be here!!!!</div>
+			<div class="myAd_Img" id="myAd_shadow"></div>
+			<div class="myAd_Img" id="myAd_text3"></div>
+
 
 		</div>
 
